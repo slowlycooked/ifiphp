@@ -1,0 +1,113 @@
+#popup{
+    position: absolute;
+    left: 50%;
+    top:10%;
+}
+#popup-wrapper {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    display: none;
+    font-size: 18px;
+    margin-left: -302px;
+    position: relative;
+    top: 0px;
+    width: 600px;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+
+#popup-wrapper h3 {
+	border-bottom: 1px dotted #DDD;
+}
+#popup-wrapper input[type=file] {
+	border: 1px solid #DDD;
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+/*#popup-wrapper #submit-btn {
+	border: none;
+	padding: 5px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+}*/
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+#output img {
+	border: 1px solid #DDD;
+	padding: 5px;
+}
+
+/* progress bar style */
+
+
+#backgroundPopup {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+
+div.loader {
+    background: url("../gfx/loading.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+}
+div.close {
+    background: url("../gfx/closebox.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -27px;
+    top: -24px;
+    width: 30px;
+}
+span.esc_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content {
+    margin: 4px 7px;
+/*    overflow-y:scroll;
+    height:200px*/
+}

@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-7-21, 19:19:05
+    Author     : fuq
+*/
+.ui-listview a{
+    font-size : 18pt;
+}
+
+.ui-header .ui-title {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.ui-mobile label, div.ui-controlgroup-label
+{
+      font-size: 18pt;
+      font-weight: bold;
+}
+
+.center-wrapper{
+  text-align: center;
+}
+.center-wrapper * {
+  margin: 0 auto;
+}
+
+table#detail{
+     border: 1px solid gray;
+    
+}
+
+th{
+     background: #efd17c;
+     
+}
+.ui-table th{
+    text-align: right;
+}
+
+tr#sum_row
+{
+    font-weight: bolder;
+    background: #efd17c;
+    text-align: right;
+}
+tr#sum_row td{
+    text-align: right;
+}
+
+td.data 
+{
+   border: 1px solid gray;
+   text-align: right;
+}
+
+tr:nth-child(even) {
+    background: #e9e9e9;
+}
+
+
+div#myPopup {
+    margin-right: 10%;
+    margin-left: 10%;
+}
